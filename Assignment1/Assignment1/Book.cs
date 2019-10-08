@@ -35,6 +35,7 @@ namespace Assignment1
                 this.isbn13 = isbn13;
             else
                 throw new ArgumentException("isbn must be 13 character long!");
+            this.author = author;
         }
     }
 }

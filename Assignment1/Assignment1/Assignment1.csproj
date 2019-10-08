@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\GitHub\Mandatory-1-3q-tomcsojn\Assignment1\Assignment1\Assignment1.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
